@@ -37,7 +37,7 @@
           avoid_margin_lateral: 0.7                    # [m]
           safety_buffer_lateral: 0.3                   # [m]
           safety_buffer_longitudinal: 0.0              # [m]
-          use_conservative_buffer_longitudinal: true   # [-] When set to true, the base_link2front is added to the longitudinal buffer before avoidance.
+          use_conservative_buffer_longitudinal: false  # [-] When set to true, the base_link2front is added to the longitudinal buffer before avoidance.
         truck:
           is_target: true
           execute_num: 1
@@ -48,7 +48,7 @@
           avoid_margin_lateral: 1.0
           safety_buffer_lateral: 0.7
           safety_buffer_longitudinal: 0.0
-          use_conservative_buffer_longitudinal: true
+          use_conservative_buffer_longitudinal: false
         bus:
           is_target: true
           execute_num: 1
@@ -59,7 +59,7 @@
           avoid_margin_lateral: 1.0
           safety_buffer_lateral: 0.7
           safety_buffer_longitudinal: 0.0
-          use_conservative_buffer_longitudinal: true
+          use_conservative_buffer_longitudinal: false
         trailer:
           is_target: true
           execute_num: 1
@@ -70,7 +70,7 @@
           avoid_margin_lateral: 1.0
           safety_buffer_lateral: 0.7
           safety_buffer_longitudinal: 0.0
-          use_conservative_buffer_longitudinal: true
+          use_conservative_buffer_longitudinal: false
         unknown:
           is_target: false
           execute_num: 1
@@ -81,7 +81,7 @@
           avoid_margin_lateral: 1.0
           safety_buffer_lateral: 0.7
           safety_buffer_longitudinal: 0.0
-          use_conservative_buffer_longitudinal: true
+          use_conservative_buffer_longitudinal: false
         bicycle:
           is_target: true
           execute_num: 1
@@ -92,7 +92,7 @@
           avoid_margin_lateral: 0.0
           safety_buffer_lateral: 1.0
           safety_buffer_longitudinal: 1.0
-          use_conservative_buffer_longitudinal: true
+          use_conservative_buffer_longitudinal: false
         motorcycle:
           is_target: true
           execute_num: 1
@@ -103,7 +103,7 @@
           avoid_margin_lateral: 0.0
           safety_buffer_lateral: 1.0
           safety_buffer_longitudinal: 1.0
-          use_conservative_buffer_longitudinal: true
+          use_conservative_buffer_longitudinal: false
         pedestrian:
           is_target: true
           execute_num: 1
@@ -114,7 +114,7 @@
           avoid_margin_lateral: 0.0
           safety_buffer_lateral: 1.0
           safety_buffer_longitudinal: 1.0
-          use_conservative_buffer_longitudinal: true
+          use_conservative_buffer_longitudinal: false
         lower_distance_for_polygon_expansion: 30.0      # [m]
         upper_distance_for_polygon_expansion: 100.0     # [m]
 
