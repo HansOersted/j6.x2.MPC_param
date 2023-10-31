@@ -4,7 +4,8 @@
       backward_lane_length: 200.0 #[m]
       prepare_duration: 3.0         # [s]
 
-      backward_length_buffer_for_end_of_lane: 1.5 # [m]
+      backward_length_buffer_for_end_of_lane: 7.0 # [m]
+      backward_length_buffer_for_blocking_object: 0.5 # [m]
       lane_change_finish_judge_buffer: 0.0      # [m]
 
       lane_changing_lateral_jerk: 0.3             # [m/s3]
